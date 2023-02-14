@@ -1,0 +1,335 @@
+!SESSION 2023-01-18 09:29:22.005 -----------------------------------------------
+eclipse.buildId=4.17.1.202301011401
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2023-01-18 09:29:31.584
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-01-18 09:32:06.686
+!MESSAGE Logback config file: C:\Users\ustjavafsdb412\STS_Worksp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-01-18 09:32:30.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-18 09:32:30.432
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-18 09:32:30.432
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-01-18 09:32:47.079
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ustjavafsdb412'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-01-18 09:36:48.130
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:87)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:55)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-18 09:37:07.387
+!MESSAGE executing callback sts4.classpath.eRltBloa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-01-18 09:37:07.389
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-01-18 09:37:27.234
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2023-01-18 09:39:19.749
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-01-18 09:39:19.749
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-01-18 10:44:54.985
+!MESSAGE Failed to initialize Git team provider.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1000)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not move '/SpringSecurity'.
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:394)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1093)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:993)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	... 13 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2023-01-18 10:44:54.989
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2023-01-18 10:44:54.989
+!MESSAGE Could not move '/SpringSecurity'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:394)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1093)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:993)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	... 13 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2023-01-18 10:44:54.990
+!MESSAGE Could not move: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:394)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1093)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:993)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity.
+java.nio.file.FileSystemException: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:394)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1093)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:993)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2023-01-18 10:44:54.990
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2023-01-18 10:44:54.990
+!MESSAGE Could not delete: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\ustjavafsdb412\STS_Worksp\SpringSecurity: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:388)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:394)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:818)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:769)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1093)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:993)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:200)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-01-18 11:02:48.918
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-01-18 11:02:59.335
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-01-18 11:26:29.328
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 17, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 17, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:116)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 17, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:288)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-01-18 11:30:54.614
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 62, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 62, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:116)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 62, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:288)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
