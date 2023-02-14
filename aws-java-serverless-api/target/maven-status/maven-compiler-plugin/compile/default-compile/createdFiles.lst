@@ -1,0 +1,10 @@
+com\serverless\lambda\DeleteItemFunction.class
+com\serverless\ApiGatewayResponse$Builder.class
+com\serverless\Response.class
+com\serverless\utils\DependencyFactory.class
+com\serverless\ApiGatewayResponse.class
+com\serverless\lambda\UpdateItemFunction.class
+com\serverless\lambda\PostItemFunction.class
+com\serverless\lambda\GetItemFunction.class
+com\serverless\Handler.class
+com\serverless\model\Employee.class
